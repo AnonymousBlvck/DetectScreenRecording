@@ -3,10 +3,6 @@
    
    <name>DetectScreeRecording</name>
    
-   <js-module name="DetectScreeRecording" src="www/DetectScreeRecording.js">
-      <clobbers target="cordova.plugins.DetectScreeRecording" />
-   </js-module>
-   
    <platform name="ios">
       <config-file parent="/*" target="config.xml">
          <feature name="DetectScreeRecording">
