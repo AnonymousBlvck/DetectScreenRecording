@@ -1,0 +1,18 @@
+{
+  "name": "detectscreerecording",
+  "version": "1.0.0",
+  "description": "Detect Screen recording",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "detect",
+    "screen",
+    "record",
+    "cordova",
+    "ionic"
+  ],
+  "author": "Nando Bingani",
+  "license": "ISC"
+}

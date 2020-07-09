@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-detect-screen-recording" version="1.0.0">
+   
+   <name>DetectScreeRecording</name>
+   
+   <js-module name="DetectScreeRecording" src="www/DetectScreeRecording.js">
+      <clobbers target="cordova.plugins.DetectScreeRecording" />
+   </js-module>
+   
+   <platform name="ios">
+      <config-file parent="/*" target="config.xml">
+         <feature name="DetectScreeRecording">
+            <param name="ios-package" value="DetectScreeRecording" />
+            <param name="onload" value="true" />
+
+         </feature>
+      </config-file>
+
+    <header-file src="src/ios/DetectScreeRecording.h" />
+    <source-file src="src/ios/DetectScreeRecording.m" />
+
+   </platform>
+</plugin>
